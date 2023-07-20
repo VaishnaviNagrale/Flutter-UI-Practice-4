@@ -25,7 +25,7 @@ class DeatailInfoScreen extends StatelessWidget {
         elevation: 0,
         backgroundColor: color1,
         actions: [
-          CircleAvatar(
+         const CircleAvatar(
             backgroundColor: Colors.white,
             child: Icon(
               Icons.favorite,
@@ -114,7 +114,7 @@ class DeatailInfoScreen extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              Text(
+                             const Text(
                                 '⭐4.5',
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
@@ -127,7 +127,7 @@ class DeatailInfoScreen extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              Text(
+                             const Text(
                                 '102',
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
@@ -140,14 +140,14 @@ class DeatailInfoScreen extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              Text(
+                             const Text(
                                 'Eng',
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               ),
                               SizedBox(
                                 height: isSmallScreen ? 4 : 8,
                               ),
-                              Text('Languages')
+                             const Text('Languages')
                             ],
                           ),
                         ],
@@ -197,17 +197,17 @@ class DeatailInfoScreen extends StatelessWidget {
                           width: isSmallScreen ? 200 : 300,
                           child: TextButton(
                             onPressed: () {},
-                            child: Padding(
+                            style: TextButton.styleFrom(
+                                backgroundColor: Colors.red),
+                            child:  Padding(
                               padding: const EdgeInsets.all(18.0),
-                              child: Text(
+                              child:  Text(
                                 'Buy Now',
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: isSmallScreen ? 14 : 18),
                               ),
                             ),
-                            style: TextButton.styleFrom(
-                                backgroundColor: Colors.red),
                           ),
                         ),
                       ],

@@ -12,11 +12,11 @@ class HomeScreen extends StatelessWidget {
     final isSmallScreen = screenWidth <= 600;
 
     return Scaffold(
-      backgroundColor: Color(0xFFFFFFFF),
+      backgroundColor: const Color(0xFFFFFFFF),
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.white,
-        leading: Icon(
+        leading: const Icon(
           Icons.menu,
           color: Colors.grey,
         ),
@@ -62,7 +62,7 @@ class HomeScreen extends StatelessWidget {
                             img: 'image 13',
                             text1: 'Modern Calligraphy',
                             text2: 'June and Lucy',
-                            color1: Color(0xFFcef3fc),
+                            color1: const Color(0xFFcef3fc),
                             color2: Colors.blue,
                             color3: Colors.grey,
                           ),
@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                             img: 'image 16',
                             text1: 'Yves Saint Laurent',
                             text2: 'Suzy Menkes',
-                            color1: Color(0xffda6d8f),
+                            color1: const Color(0xffda6d8f),
                             color2: Colors.brown,
                             color3: Colors.grey,
                           ),
@@ -105,7 +105,7 @@ class HomeScreen extends StatelessWidget {
                             text1: 'Cat Secrets',
                             text2: 'Jef Czekaj',
                             img: 'image 13',
-                            color1: Color(0xFFcef3fc),
+                            color1: const Color(0xFFcef3fc),
                             color2: Colors.blue,
                             color3: Colors.grey,
                           ),
@@ -116,7 +116,7 @@ class HomeScreen extends StatelessWidget {
                             img: 'image 16',
                             text1: 'Yves Saint Laurent',
                             text2: 'Suzy Menkes',
-                            color1: Color(0xffda6d8f),
+                            color1: const Color(0xffda6d8f),
                             color2: Colors.brown,
                             color3: Colors.grey,
                           ),

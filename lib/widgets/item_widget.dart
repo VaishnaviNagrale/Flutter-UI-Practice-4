@@ -51,7 +51,7 @@ class item_widget extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
-            Row(
+          const  Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Icon(
@@ -60,7 +60,7 @@ class item_widget extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(
+          const  SizedBox(
               height: 10,
             ),
             Column(

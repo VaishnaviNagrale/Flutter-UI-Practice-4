@@ -99,7 +99,7 @@ class item_widget2 extends StatelessWidget {
               SizedBox(
                 width: isSmallScreen ? 10 : 20,
               ),
-              CircleAvatar(
+            const  CircleAvatar(
                 backgroundColor: Colors.white,
                 child: Icon(
                   Icons.favorite,
